@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Freeman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+  margin: 0;
+}
+.App{
+  width: 100vw;
+  background: linear-gradient(black, rgb(32, 32, 32));
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.msgBar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 60px;
+  background: linear-gradient(90deg, rgb(100, 13, 13) 30%, red);
+}
+.msgBar span{
+  font-family: "Freeman", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  font-style: normal;
+  color: white;
+}
+.container{
+  margin-top: 40px;
+  max-width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.highlight{
+  color: red !important;
+}
+.title{
+  font-family: "Freeman", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  font-style: normal;
+  color: white;
+  font-size: 30px;
+}
+video{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+button {
+  padding: 17px 40px;
+  border-radius: 15px;
+  cursor: pointer;
+  border: 0;
+  background: linear-gradient(90deg, rgb(100, 13, 13) 30%, red);
+  color: white ;
+  font-weight: 600;
+  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: all 0.5s ease;
+}
+
+button:hover {
+  letter-spacing: 3px;
+  background-color: hsl(261deg 80% 48%) !important;
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(243, 11, 11) 0px 7px 29px 0px;
+}
+
+button:active {
+  letter-spacing: 3px;
+  background-color: hsl(261deg 80% 48%) !important;
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(243, 11, 11) 0px 7px 29px 0px;
+  transform: translateY(10px);
+  transition: 100ms;
+}
+.vantagens{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 90vw;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+.vantagem{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: rgb(19, 18, 18);
+  opacity: 99%;
+  border-radius: 20px;
+  width: 180px;
+  height: 210px;
+}
+.vantagem span{
+  font-family: "Freeman", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  font-style: normal;
+  color: white;
+  font-size: 15px;
+}
+i{
+  color: red;
+  font-size: 20px;
+  margin-bottom: 16px;
+  margin-top: 30px;
+}
+.vagas{
+  margin-bottom: 30px;
+}
+.redes-sociais{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.redes-sociais span{
+  font-family: "Freeman", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  font-style: normal;
+  color: white;
+  font-size: 28px;
+  text-align: center;
+}
+.vagas span{
+  font-family: "Freeman", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  font-style: normal;
+  color: white;
+  margin-left: 8px;
+}
+.subtitle{
+  width: 90vw;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  font-size: 20px !important;
+  font-weight: 0 !important;
+  font-family: "Raleway", sans-serif !important;
+  font-optical-sizing: auto !important;
+  font-style: normal !important;
+}
+.redes-sociais button{
+  margin-bottom: 60px;
+}
+
+@media (max-width: 768px) {
+  .video-container {
+    width: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .video-container {
+    width: 300px;
+  }
+}
