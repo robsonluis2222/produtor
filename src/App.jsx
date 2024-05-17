@@ -12,7 +12,7 @@ function App() {
           <div className='container'>
             <span className='title'>LUCRE ATÉ <span className='highlight'>$1000 POR DIA</span> SEGUINDO MEUS SINAIS AO VIVO PARA PEGAR <span className='highlight'>NÚMEROS E MULTIPLICADORES</span></span>
             <video width="400" controls>
-              <source src="/src/midia/first.mp4" type="video/mp4" />
+              <source src="https://backendchat.000webhostapp.com/produtor/video.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
             <a href="https://contate.me/luketadaroleta" target='_blank'><button>QUERO LUCRAR 100% DE GRAÇA</button></a>
