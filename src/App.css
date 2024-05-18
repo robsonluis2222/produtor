@@ -154,6 +154,49 @@ i{
 .redes-sociais button{
   margin-bottom: 60px;
 }
+.ativarSom{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: white;
+  border-radius: 30px;
+  flex-direction: column;
+  cursor: pointer;
+  opacity: 70%;
+  top: 300px;
+  width: 200px;
+  height: 140px;
+  background-color: #5D3481;
+  z-index: 1;
+  backdrop-filter: blur(10px) !important;
+  transition: 1s;
+}
+.soundContent{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: white;
+  border-radius: 30px;
+  flex-direction: column;
+  opacity: 100% !important;
+  z-index: 1;
+  transition: 1s;
+}
+  .ativarSom span{
+    font-family: "Freeman", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+    font-style: normal;
+    color: white;
+    margin-top: -20px;
+    opacity: 100% !important;
+  }
+  .ativarSom i{
+    color: white;
+    font-size: 30px;
+  }
 
 @media (max-width: 768px) {
   .video-container {
