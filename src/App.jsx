@@ -30,6 +30,10 @@ function App() {
             </div>
           </div>
           <video width="400" ref={videoRef} autoPlay muted>
+            <div className='soundContent'>
+              <i className="bi bi-volume-mute-fill"></i>
+              <span>Clique para ativar o som!</span>
+            </div>
             <source src="https://backendchat.000webhostapp.com/produtor/video.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>

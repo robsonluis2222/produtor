@@ -155,8 +155,8 @@ i{
   margin-bottom: 60px;
 }
 .ativarSom{
-  position: absolute;
   display: flex;
+  position: relative;
   align-items: center;
   justify-content: flex-start;
   color: white;
@@ -164,7 +164,8 @@ i{
   flex-direction: column;
   cursor: pointer;
   opacity: 70%;
-  top: 300px;
+  margin-top: -140px;
+  top: 220px;
   width: 200px;
   height: 140px;
   background-color: #5D3481;
